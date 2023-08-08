@@ -1,0 +1,253 @@
+/* Extra Small */
+@media (max-width: 576px) {
+
+  /* Your styles for extra small devices here */
+  main {
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    overflow: scroll;
+    justify-content: center;
+  }
+
+  aside {
+    width: 100%;
+    height: 100%;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+  }
+
+  section .content {
+    padding: 0 0 0 2rem;
+  }
+
+  .about {
+    height: 50vh;
+  }
+
+  footer {
+    bottom: 1.5%;
+    left: 1.5%;
+  }
+
+  .aside-socials {
+    padding-left: 2rem;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .author-name {
+    font-size: 1.75rem;
+  }
+
+  .author-desc {
+    width: 90%;
+    font-size: 0.75rem;
+  }
+
+  #light-theme, #dark-theme {
+    right: 4%;
+    top: 4%;
+  }
+
+  #light-theme i , #dark-theme i {
+    font-size: 1.25rem;
+  }
+
+  .aside-socials i {
+    font-size: 1.1rem!important;
+  }
+
+  .about-title {
+    margin-bottom: 1rem!important;
+    font-size: 1.25rem!important;
+  }
+
+  .about-question {
+    width: 6rem;
+    font-size: 0.75rem;
+  }
+
+  .about-question i {
+    font-size: 0.75rem;
+  }
+  
+  .about-answer {
+    font-size: 0.75rem;
+  }
+
+  .about-text p, .about-text p .bold {
+    font-size: 0.75rem!important;
+    width: 90%;
+    text-align: justify;
+  }
+
+  .projects .title {
+    margin-top: 6rem;
+    margin-bottom: 1rem!important;
+    font-size: 1.25rem!important;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .project-desc {
+    display: none;
+  }
+
+  .project-card {
+    padding: 1rem;
+    margin: 2rem 0;
+  }
+
+  .project-card img {
+    width: 10rem;
+  }
+  
+  .project-card .right {
+    margin-left: 1rem;
+  }
+
+  .project-title a {
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .project-lang .badge {
+    font-size: 10px;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem!important;
+
+  }
+}
+
+/* Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+
+  /* Your styles for small devices here */
+  main {
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: scroll;
+    justify-content: center;
+  }
+
+  aside {
+    width: 100%;
+    height: 100%;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+  }
+
+  section .content {
+    padding: 0 0 0 2rem;
+  }
+
+  .about {
+    height: 50vh;
+  }
+
+  footer {
+    bottom: 1.5%;
+    left: 1.5%;
+  }
+
+  .aside-socials {
+    padding-left: 2rem;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* Medium */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Your styles for medium devices here */
+}
+
+
+/* Large Tablets */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  /* Your styles for large devices here */
+  main {
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: scroll;
+    justify-content: center;
+  }
+
+  aside {
+    width: 100%;
+    height: 100%;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+  }
+
+  section .content {
+    padding: 0 0 0 2rem;
+  }
+
+  .about {
+    height: 50vh;
+  }
+
+  footer {
+    bottom: 1.5%;
+    left: 1.5%;
+  }
+
+  .aside-socials {
+    padding-left: 2rem;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* Extra Large */
+@media (min-width: 1201px) {
+  /* Your styles for extra large devices here */
+}
